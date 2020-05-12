@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.home-side-img{
+    background: linear-gradient(to top, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-color{
+    color: #ffcc00;
+}
+.theme-color{
+    color: deepskyblue;
+}
+.font-size45{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.font-size20{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.font-size15{
+    color:gray;
+    font-size: 15px;
+}
+.font-size15{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #3e3e3e;
+}
+.font-size50{
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.home-left-side{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    font-family: "Arial Narrow";
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.container{*/
+/*    padding: 100px 200px !important;*/
+/*}*/
+.account-page{
+    height: 100vh;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.personal-page{
+    background: #ef32d9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+.career-page{
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 110vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.resume-wrapper{
+    padding: 20px 50px;
+    /*border: 2px solid black;*/
+    /*width:800px ;*/
+}
+.radio{
+    font-size: 20px;
+}
+.country, .region{
+    height: 40px;
+    border-radius: 0.25rem;
+    width: 200px;
+    padding-left: 0;
+}
+.datePicker{
+    height: 40px;
+    border: none;
+    border-radius: 0.25rem;
+    /*width: 335px !important;*/
+    padding-left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.width200{
+    width: 200px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.underline{
+    text-decoration: underline;
 }
+.resume-header{
+    padding: 15px 20px;
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
