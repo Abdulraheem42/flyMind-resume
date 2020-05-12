@@ -23,9 +23,9 @@ class Resume extends Component {
                     <Navbar fullName={fullName} targetRef={ref} />
                 </div>
             <div className='container d-flex justify-content-center flex-column'>
-                <div className='row resume-wrapper'>
+                <div ref={ref} className='row resume-wrapper'>
                     <div className='col-lg-10'>
-                        <div ref={ref} className=''>
+                        <div  className=''>
                             <div className='row d-flex align-items-center'>
                                 <span className=''>
                                     <img src={logo} width='150px' alt=""/>
