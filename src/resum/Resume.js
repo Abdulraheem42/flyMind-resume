@@ -31,7 +31,7 @@ class Resume extends Component {
                         <h4 className='theme-color'>{jobTitle}</h4>
                     </span>
                 </div>
-                <div className='mt-4'>
+                <div className='mt-2'>
                     <h1 className='theme-color underline'>Personal Details:</h1>
                     <div>
                     <div><span className='font-size15'>Address: </span> {address}</div>
@@ -46,7 +46,7 @@ class Resume extends Component {
                         <div><span className='font-size15'>Region:</span>{region}</div>
                     </div>
 
-                    <div className='mt-5'>
+                    <div className='mt-2'>
                         <h1 className='theme-color underline'>Summary:</h1>
                         <li className='font-size15'>{describeEdu}</li>
                     </div>
@@ -82,7 +82,7 @@ class Resume extends Component {
                         <h1 className='theme-color underline'>Language:</h1>
                         {language ? language.map(res =>{
                             return(
-                                <li className='d-flex' key={res.id}>{res.value}</li>
+                                    <span key={res.id}>{res.value}, </span>
                             )
                         }) : null}
                     </div>
